@@ -6330,3 +6330,29 @@ html .ql-toolbar .ql-picker .ql-picker-options {
 .margintop7 {
   margin-top: 0.7rem;
 }
+
+.loader-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.loader {
+  left: 40%;
+  top: 30%;
+  position: absolute;
+}
+
+.loader img {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}

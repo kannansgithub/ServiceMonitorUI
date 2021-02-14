@@ -39,7 +39,7 @@ MainFooter.propTypes = {
 
 MainFooter.defaultProps = {
   contained: false,
-  copyright: "Copyright © 2021 Thermo Fisher Scientific",
+  copyright: "Copyright © 2021 Kannan S",
   menuItems: [
     {
       title: "Home",
